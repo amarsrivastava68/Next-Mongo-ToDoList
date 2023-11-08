@@ -2,8 +2,11 @@ import TopicsList from "@/components/TopicsList";
 
 
 export default function Home() {
-  return <div>
+  return <>
+  <TopicsList/>
+  <TopicsList/>
+  <TopicsList/>
+  <TopicsList/>
+  </>
 
-    <TopicsList/>
-  </div>;
 }
