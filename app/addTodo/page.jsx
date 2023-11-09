@@ -1,10 +1,6 @@
 import { React } from "react";
 
-
-
-
 const AddTodo = () => {
-
   const handleStatusChange = (e) => {
     setStatus(e.target.value);
   };
@@ -21,14 +17,15 @@ const AddTodo = () => {
         placeholder="ToDo Description"
         className="border border-slate-500 px-8 py-2"
       />
- <input
+      <input
         type="text"
         placeholder="ToDo Status (Pending / Done / Other Remarks ) "
         className="border border-slate-500 px-8 py-2"
       />
 
-
-      <button className="bg-green-500 font-bold  text-white py-3 px-6 w-fit">Add ToDo </button>
+      <button className="bg-green-500 font-bold  text-white py-3 px-6 w-fit">
+        Add ToDo{" "}
+      </button>
     </form>
   );
 };

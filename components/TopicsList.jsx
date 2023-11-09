@@ -13,7 +13,7 @@ const TopicsList = () => {
         </div>
         <div className="flex gap-2">
           <RemoveBtn />
-          <Link href={"./editTopic123"}>
+          <Link href={"./editTodo/123"}>
             <HiPencilAlt size={24} />
           </Link>
         </div>
