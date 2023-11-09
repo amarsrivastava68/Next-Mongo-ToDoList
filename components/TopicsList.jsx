@@ -30,7 +30,7 @@ export default async function TopicsList() {
             <h2>{todo.description}</h2>
           </div>
           <div className="flex gap-2">
-            <RemoveBtn />
+            <RemoveBtn  id ={todo._id}/>
             <Link href={`./editTodo/${todo._id}`}>
               <HiPencilAlt size={24} />
             </Link>
