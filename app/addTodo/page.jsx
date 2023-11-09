@@ -29,6 +29,7 @@ export default function AddTodo() {
 
       if (res.ok) {
         router.push("/");
+        
       } else {
         throw new Error("Failed to create a todo");
       }
