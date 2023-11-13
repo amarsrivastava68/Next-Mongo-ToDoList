@@ -52,7 +52,7 @@ export default function EditTodoForm({ id, title, description, status }) {
       />
 
       <button className="bg-green-500 font-bold  text-white py-3 px-6 w-fit">
-        Update Topic
+        Update ToDo
       </button>
     </form>
   );
